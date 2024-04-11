@@ -1,0 +1,30 @@
+*{
+  margin: 0;padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  font-family: sans-serif;
+  transition: .5s;
+}
+:root{
+  --main-color: #2FBF71;
+  --second-color: #F7F7FF;
+  --third-color: rgba(0, 0, 0, 0.384);
+  --fourth-color: rgba(255, 255, 255, 0.384);
+  --fifth-color: rgba(83, 82, 82, 0.473);
+  --sixth-color: rgba(102, 99, 99, 0.349);
+  --lightcoral:lightcoral;
+  --lemonchiffon:lemonchiffon;
+  --lightblue:lightblue;
+  --lightsalmon:lightsalmon;
+  
+}
+
+::-webkit-scrollbar{
+  width: .3rem;
+}
+
+::-webkit-scrollbar-thumb{
+  border-radius: 10px;
+  background-color: var(--main-color);
+}

@@ -1,0 +1,24 @@
+.hero{
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box1{
+    width: 18rem;
+    height: 100vh;
+}
+.box2{
+    width: calc(100% - 18rem);
+    height: 100vh;
+    overflow-y: scroll;
+}
+
+@media (max-width: 768px){
+    .box1{
+        display: none;
+    }
+    .box2{
+        width: 100%;
+    }
+}
